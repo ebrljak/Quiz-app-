@@ -353,3 +353,39 @@ footer button.show {
     color: #fff;
     background: #040521;
 }
+
+@media only screen and (max-width: 350px) {
+    .info_box {
+        width: 200px;
+    }
+    .quiz_box {
+        width: 200px;
+    }
+    .result_box {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .info_box{
+    width: 350px;
+}
+    .quiz_box {
+        width: 350px;
+    }
+
+    .result_box {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .start_btn img {
+            width: 100px;
+            height: 100px;
+            float: inline-start;
+            margin-left: 40px;
+        }
+}
+
+
